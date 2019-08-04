@@ -10,29 +10,19 @@ When the Straightedge chain launches, Validators in the network will launch the 
 
 This **genesis block file** will contain the initial **"genesis" distribution** of STR tokens (amongst other things).
 
-This **genesis block file** will be created using:
+The **"genesis" distribution** of STR tokens will consist of:
 
-1. addresses and data from Edgeware's lockdrop, stored in Ethereum blockchain
+- Lock / Signal Data and Addresses submitted to Edgeware's lockdrop, stored in Ethereum blockchain
 
   - This can be defined algorithmically, based on a set of parameters and code to parse Ethereum blockchain's chainstate
   
   - See [lockdrop data](./lockdrop-data.md) for an overview of this data
 
-2. allocations to addresses owned by participants in the Straightedge Launch Community
+- Allocations to Addresses owned by participants in the Straightedge Launch Community
 
-  - The amounts allocated to these addresses has not yet been finalised
+  - _The amounts allocated to these addresses has not yet been finalised_
 
-  - Technically, this will only be finalised when the chain launches...!
-
-## Purpose of this repo
-
-This repository is to receive contributions from the Straightedge Launch Community, to design and create a process to
-
-- parse Edgeware's lockdrop data from Ethereum blockchain
-
-- calculate allocations of STR to addresses of lockdrop participants (signals, locks)
-
-- include allocation to addresses of Straightedge Launch Community participants
+  - **_Technically, this will only be finalised when the chain launches...!_**
 
 ## Community Survey
 
