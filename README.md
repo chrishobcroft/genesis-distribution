@@ -6,9 +6,9 @@ This repository contains contributions from the Straightedge Launch Community, t
 
 ## Overview
 
-When the Straightedge chain launches, Validators in the network will launch the Straightedge software, which will validate a **genesis block file**.
+When Straightedge launches, validators will start by validating the same **genesis block file**.
 
-This **genesis block file** will contain the initial **"genesis" distribution** of STR tokens (amongst other things).
+This **genesis block file** will contain the initial **"genesis" distribution** of STR tokens.
 
 The **"genesis" distribution** of STR tokens will consist of:
 
