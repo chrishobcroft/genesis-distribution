@@ -18,7 +18,9 @@ The **"genesis" distribution** of STR tokens will consist of:
 
 - Allocations to Addresses proposed by participants in the Straightedge Launch Community
 
-  - _The amounts allocated to these addresses has not yet been finalised_
+  - _The amounts allocated to these addresses has not yet been finalised_  
+
+  - All members of the Straightedge Launch Community can propose addresses and allocations.
 
   - **_Technically, this will only be finalised when the chain launches...!_**
 
