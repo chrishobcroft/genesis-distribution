@@ -1,17 +1,30 @@
 ![hero-black](https://user-images.githubusercontent.com/2212651/62415240-cb758580-b626-11e9-8c3b-1a715c7b5cfc.png)
 
-# Straightedge Genesis Block
+# Straightedge Genesis Distribution
 
-This repository contains contributions from the Straightedge Launch Community, to the process of agreeing and generating the genesis block to be used to launch the Straightedge chain.
+This repository contains contributions from the Straightedge Launch Community, to the process of agreeing and generating the genesis distribution, and hence the genesis block to be validated at the launch of the Straightedge chain.
 
 ## Overview
 
-The **initial distribution** of STR tokens will be contained in the **genesis block file**, which will be used by Validators to launch the Straightedge chain.
+When the Straightedge chain launches, Validators in the network will launch the Straightedge software, which will validate a **genesis block file**.
+
+This **genesis block file** will contain the initial **"genesis" distribution** of STR tokens (amongst other things).
 
 This **genesis block file** will be created using:
 
-1. data from Edgeware's lockdrop, stored in Ethereum blockchain
-2. agreed allocation to Straightedge Launch Community
+1. addresses and data from Edgeware's lockdrop, stored in Ethereum blockchain
+
+  - This can be defined algorithmically, based on a set of parameters and code to parse Ethereum blockchain's chainstate
+  
+  - See [lockdrop data](./lockdrop-data.md) for an overview of this data
+
+2. allocations to addresses owned by participants in the Straightedge Launch Community
+
+  - The amounts allocated to these addresses has not yet been finalised
+
+  - Technically, this will only be finalised when the chain launches...!
+
+## Purpose of this repo
 
 This repository is to receive contributions from the Straightedge Launch Community, to design and create a process to
 
@@ -21,28 +34,8 @@ This repository is to receive contributions from the Straightedge Launch Communi
 
 - include allocation to addresses of Straightedge Launch Community participants
 
-## Lockdrop Data
+## Community Survey
 
-The following data is submitted as part of a **Signal** in Edgeware's Lockdrop:
+This project is collecting opinions regarding the genesis distribution for Straightedge.
 
-| # | Name         | Type    | Data                                                                              |
-|---|--------------|---------|-----------------------------------------------------------------------------------|
-| 0 | contractAddr | address | Ethereum address making the signal                                                |
-| 1 | nonce        | unit32  | nonce of txn when contract was created (where the signal relates to a contract)   |
-| 2 | edgewareAddr | bytes   | 1 public key (hex) address without the leading 0x                                 |
-
-The following data is submitted as part of a **Lock** in Edgeware's Lockdrop, for a participant who **_did not elect to be a Validator_** at network launch:
-
-| # | Name         | Type    | Data                                                                                       |
-|---|--------------|---------|--------------------------------------------------------------------------------------------|
-| 0 | term         | uint8   | 0 (3 months) or 1 (6 months) or 2 (12 months)                                              |
-| 1 | edgewareAddr | bytes   | 1 public key (hex) address without the leading 0x                                          |
-| 2 | isValidator  | bool    | false                                                                                      |
-
-The following data is submitted as part of a **Lock** in Edgeware's Lockdrop, for a participant who **_elected to be a Validator_** at network launch:
-
-| # | Name         | Type    | Data                                                                                       |
-|---|--------------|---------|--------------------------------------------------------------------------------------------|
-| 0 | term         | uint8   | 0 (3 months) or 1 (6 months) or 2 (12 months)                                              |
-| 1 | edgewareAddr | bytes   | 3 concatenated public key (hex) addresses without the leading 0x                           |
-| 2 | isValidator  | bool    | true                                                                                      |false
+If you would like to participate, please follow [this link](https://communitygovernance.typeform.com/to/oKZtnC).
