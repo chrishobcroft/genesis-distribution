@@ -1,8 +1,8 @@
 ![hero-black](https://user-images.githubusercontent.com/2212651/62415240-cb758580-b626-11e9-8c3b-1a715c7b5cfc.png)
 
-# Straightedge Genesis Block File - Generation Script
+# Straightedge Genesis Block
 
-This repository contains contributions from the Straightedge Launch Community, to the process of generating the genesis block file to be used to launch the Straightedge chain.
+This repository contains contributions from the Straightedge Launch Community, to the process of agreeing and generating the genesis block to be used to launch the Straightedge chain.
 
 ## Overview
 
