@@ -1,5 +1,3 @@
-![hero-black](https://user-images.githubusercontent.com/2212651/62415240-cb758580-b626-11e9-8c3b-1a715c7b5cfc.png)
-
 # Straightedge Genesis Distribution
 
 This repository contains contributions from the Straightedge Launch Community, to the process of agreeing and generating the genesis distribution, and hence the genesis block to be validated at the launch of the Straightedge chain.
@@ -29,3 +27,5 @@ The **"genesis" distribution** of STR tokens will consist of:
 This project is collecting opinions regarding the genesis distribution for Straightedge.
 
 If you would like to participate, please follow [this link](https://communitygovernance.typeform.com/to/oKZtnC).
+
+![hero-black](https://user-images.githubusercontent.com/2212651/62415240-cb758580-b626-11e9-8c3b-1a715c7b5cfc.png)
