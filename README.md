@@ -18,7 +18,7 @@ The **"genesis" distribution** of STR tokens will consist of:
   
   - See [lockdrop data](./lockdrop-data.md) for an overview of this data
 
-- Allocations to Addresses owned by participants in the Straightedge Launch Community
+- Allocations to Addresses proposed by participants in the Straightedge Launch Community
 
   - _The amounts allocated to these addresses has not yet been finalised_
 
