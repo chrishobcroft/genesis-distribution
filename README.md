@@ -24,6 +24,12 @@ The **"genesis" distribution** of STR tokens will consist of:
 
   - **_Technically, this will only be finalised when the chain launches...!_**
 
+## Propose a Genesis Distribution
+
+The distribution will be defined and agreed by Straightedge Launch Community. That includes you.
+
+If you have ideas and opinions for how the Genesis Distribution might work, in ways which will incentivise you, and also maximise the likelihood of the network being successful, you can [make a Genesis Distribution Proposal](https://github.com/heystraightedge/genesis-distribution/issues/new/choose).
+
 ## Community Survey
 
 This project is collecting opinions regarding the genesis distribution for Straightedge.
