@@ -20,7 +20,7 @@ The **"genesis" distribution** of STR tokens will consist of:
 
   - _The amounts allocated to these addresses has not yet been finalised_  
 
-  - All members of the Straightedge Launch Community can [propose allocations by opening an issue](https://github.com/heystraightedge/genesis-distribution/issues/new?assignees=&labels=proposal&template=allocation-proposal.md&title=Allocation+Proposal%3A+%7Bamount%7D+STR+to+be+allocated+to+%7Baddress%7D+%2F+%7Bdescription%7D).
+  - All members of the Straightedge Launch Community can [propose allocations by opening an issue](https://github.com/heystraightedge/genesis-distribution/issues/new/choose).
 
   - **_Technically, this will only be finalised when the chain launches...!_**
 
